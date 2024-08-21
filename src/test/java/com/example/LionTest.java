@@ -45,21 +45,4 @@ public class LionTest {
     }
 
 
-    // льва внутри тестов можно создавать с любыми параметрами
-    // feline мокируем
-
-
-//    @Test
-//    public void lionGetKittensMockedTest() throws Exception {
-//        Lion l = new Lion("Самка", felineMock);
-//        l.getKittens();
-//        verify(felineMock).getKittens();
-//    }
-//
-//    @Test
-//    public void lionGetFoodMockedTest() throws Exception {
-//        Lion l = new Lion("Самец", felineMock);
-//        l.getFood();
-//        verify(felineMock).getFood("Хищник");
-//    }
 }

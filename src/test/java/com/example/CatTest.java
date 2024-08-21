@@ -39,21 +39,4 @@ public class CatTest {
     }
 
 
-    // мокируем feline и cat
-
-
-//    @Mock
-//    Cat catMock = new Cat(felineMock);
-//
-//    @Test
-//    public void getSoundMockedTest() {
-//        cat.getSound();
-//        verify(cat).getSound();
-//    }
-//
-//    @Test
-//    public void getFoodMockTest() throws Exception {
-//        catMock.getFood();
-//        verify(catMock).getFood();
-//    }
 }
