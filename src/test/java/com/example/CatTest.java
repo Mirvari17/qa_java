@@ -15,15 +15,12 @@ import static org.mockito.Mockito.when;
 
 public class CatTest {
 
-    // public CatTest() {}
+
     @Mock
     Feline felineMock;
 
     @InjectMocks
     Cat cat;
-
-    //Feline feline = new Feline();
-    //Cat cat = new Cat(felineMock);
 
     // кошка издаёт звук "мяу"
     @Test
